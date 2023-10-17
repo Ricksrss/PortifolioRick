@@ -26,7 +26,7 @@ function Project() {
                 tech="React"
                 description="Desenvolvimento de uma Pagina Pessoal com React"
                 repo="https://github.com/Ricksrss/PortifolioRick"
-                site="https://ricksrss.github.io/DesafioCCXP/"
+                site="https://portifolio-rick.vercel.app/"
             />
             <Card
                 img={bootcamp}
