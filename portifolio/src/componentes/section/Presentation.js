@@ -14,7 +14,6 @@ function Presentation() {
                 Sistemas mas me formo em breve.</p>
 
             <ButtonA link='https://www.linkedin.com/in/henrique-soares-719819232/' text='Conecte-se comigo!' />
-            <ButtonB text='Botão B' />
         </div>
     )
 }

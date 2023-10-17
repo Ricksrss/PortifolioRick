@@ -34,7 +34,7 @@ function Project() {
                 tech="HTML, CSS"
                 description="Projeto de desenvolvimento do modo base do curso de tecnologia da Escola DNC"
                 repo="https://github.com/Ricksrss/bootcamp-dnc"
-                site="https://ricksrss.github.io/DesafioCCXP/"
+                site="https://bootcampdncc.netlify.app/"
             />
             <Card
                 img={arquitetura}
@@ -60,7 +60,6 @@ function Project() {
                 repo="https://github.com/Ricksrss/projetoportifolio"
                 site="https://projetomariaportifolio.netlify.app/"
             />
-            <ButtonB text='Acesse meu repositório' link='https://github.com/Ricksrss?tab=repositories' />
         </div>
     )
 }
