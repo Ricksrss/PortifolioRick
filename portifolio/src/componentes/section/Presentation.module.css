@@ -1,12 +1,13 @@
-.presentation{
+.presentation {
     text-align: left;
     margin-left: 15%;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
-.presentation h1{
+.presentation h1 {
     font-size: 45px;
 }
 
-.presentation h4{
+.presentation h4 {
     font-size: 25px;
 }
