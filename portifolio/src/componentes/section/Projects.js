@@ -1,17 +1,26 @@
-import ButtonB from './elements/ButtonB'
-import styles from './Projects.module.css'
-import Card from './elements/Card'
-import ccxp from './image/projects/ccxp.svg'
-import portifolio from './image/projects/portifolio.svg'
-import bootcamp from './image/projects/bootcamp.svg'
-import arquitetura from './image/projects/arquitetura.svg'
-import landingpage from './image/projects/landing-page.svg'
-import projport from './image/projects/projport.svg'
+import React from 'react';
+import Card from './elements/Card';
+import styles from './Projects.module.css';
+import ccxp from './image/projects/ccxp.svg';
+import portifolio from './image/projects/portifolio.svg';
+import bootcamp from './image/projects/bootcamp.svg';
+import arquitetura from './image/projects/arquitetura.svg';
+import landingpage from './image/projects/landing-page.svg';
+import projport from './image/projects/projport.svg';
+import reactt from './image/projects/reactt.svg';
 
 function Project() {
     return (
         <div className={styles.projects} id="Projects">
-            <h1>Projetos </h1>
+            <h1>Projetos</h1>
+            <Card
+                img={reactt}
+                title="Projeto React+Vite"
+                tech="HTML, CSS"
+                description="Projeto de desenvolvimento do modo Intermediário do curso de tecnologia da Escola DNC"
+                repo="https://github.com/Ricksrss/Desafio-React"
+                site="https://desafio-reactt.netlify.app/"
+            />
             <Card
                 img={ccxp}
                 title="CCXP"
